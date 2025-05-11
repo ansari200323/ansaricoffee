@@ -1,0 +1,450 @@
+body {
+    background-color: #5c5151;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    color: #480dd1; /* Coffee brown */
+}
+
+p {
+    font-size: 18px;
+    color: #333;
+}
+body {
+    background-image: url('backgraund image 2.jpg');
+    background-size: cover;         /* Home scren */
+    background-position: center;    /* সেন্টার করে বসাবে */
+    background-repeat: no-repeat;   /* রিপিট করবে না */
+    font-family: Arial, sans-serif;
+}.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.gallery img {
+  width: 200px; /* ছবির প্রস্থ (width) ছোট করলাম */
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05); /* হোভার করলে একটু বড় দেখাবে */
+}
+.cover {
+  background-image: url('cover.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* পুরো স্ক্রিন জুড়ে দেখাবে */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: rgb(228, 241, 41);
+  position: relative;
+}
+
+.cover-content {
+  background-color: rgba(0, 0, 0, 0.5); /* অল্প ডার্ক ব্যাকগ্রাউন্ড টেক্সটের নিচে */
+  padding: 20px;
+  border-radius: 10px;
+}p {
+  color: #271308; /* ডার্ক গ্রে রঙ, চাইলে পরিবর্তন করুন */
+}
+.menu a {
+  color: #110a1d; /* সাদা রঙ */
+  text-decoration: none;
+  font-weight: bold;
+}
+.menu-items li {
+  color: #ebe9e7; /* white */
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+#menu li {
+  color: rgb(207, 6, 6);
+}
+#payment {
+  padding: 40px 20px;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+#payment h2 {
+  font-size: 28px;
+  color: #7B3F00; /* Coffee color */
+  margin-bottom: 30px;
+}
+
+.payment-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.payment-options .option {
+  width: 150px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.payment-options .option:hover {
+  transform: scale(1.05);
+}
+
+.payment-options img {
+  width: 60px;
+  height: 60px;
+}
+
+.payment-options p {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #333;
+}
+#menu {
+  padding: 40px 20px;
+  background-color: #fff5e6;
+  text-align: center;
+}
+
+#menu h2 {
+  color: #7B3F00;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.menu-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.menu-item {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  width: 200px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.menu-item img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.menu-item h3 {
+  margin: 10px 0 5px;
+  color: #7B3F00;
+}
+
+.menu-item p {
+  font-weight: bold;
+  color: #333;
+}
+#contact {
+  padding: 40px 20px;
+  background-color: #88a398;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 30px;
+  color: #f39530;
+  margin-bottom: 25px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.contact-info .details {
+  font-size: 16px;
+  color: #dbdf13;
+}
+
+.contact-info .details p {
+  margin: 5px 0;
+}
+
+.contact-info .map {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+footer {
+  background-color: #7B3F00;
+  color: #fff;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.footer-content img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.footer-content h3 {
+  margin: 5px 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.footer-content p {
+  font-size: 14px;
+  color: #ddd;
+}
+#about {
+  padding: 60px 20px;
+  background-color: #fff;
+}
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.about-image {
+  flex: 1 1 300px;
+  text-align: center;
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.about-text {
+  flex: 1 1 400px;
+}
+
+.about-text h2 {
+  font-size: 32px;
+  color: #7B3F00;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #333;
+  margin-bottom: 15px;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fffdf8;
+}
+
+.content {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.content h2 {
+  font-size: 32px;
+  color: #7B3F00;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  position: relative;
+  display: inline-block;
+}
+
+.content h2::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #D2691E;
+  margin: 8px auto 0;
+  border-radius: 2px;
+}
+
+.content p {
+  font-size: 16px;
+  color: #444;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.cover {
+  background-image: url('backgraung image.jpg'); /* আপনার ব্যাকগ্রাউন্ড ইমেজ */
+  background-size: cover;
+  background-position: center;
+  padding: 150px 20px;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+.cover.content h1,
+.cover.content p {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+.cover.content p {
+  animation-delay: 0.5s;
+}
+
+/* Animation keyframes */
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}.btn {
+  display: inline-block;
+  padding: 12px 30px;
+  font-size: 16px;
+  background-color: #7B3F00;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  text-decoration: none;
+  margin-top: 20px;
+  opacity: 0;
+  transform: scale(0.8);
+  animation: zoomIn 0.8s ease-out forwards;
+  animation-delay: 1s; /* বাটনটা একটু পরে আসবে */
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #A0522D;
+}
+
+/* Zoom animation */
+@keyframes zoomIn {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+#reviews {
+  background-color: #fef9f5;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 30px;
+  color: #7B3F00;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.review-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.review-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  padding: 25px;
+  max-width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.review-card:hover {
+  transform: translateY(-5px);
+}
+
+.review-card p {
+  font-style: italic;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.review-card h4 {
+  color: #A0522D;
+  font-weight: bold;
+  font-size: 16px;
+}
+.home {
+  background-image: url('backgraung image.jpg'); /* আপনার কাভার ফটো */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  color: white;
+}
+
+.home::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.4); /* ডার্ক overlay */
+  z-index: 1;
+}
+
+.home-content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  padding: 20px;
+}
+
+.home h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.home p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.home-btn {
+  background-color: #A0522D;
+  padding: 12px 30px;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.home-btn:hover {
+  background-color: #7B3F00;
+}
